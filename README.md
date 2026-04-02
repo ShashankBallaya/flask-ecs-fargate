@@ -4,7 +4,7 @@ Containerised Flask API with Gunicorn WSGI server, deployed to AWS ECS Fargate i
 
 ## Architecture
 
-![Architecture](architecture/project3-arhcitecture.png)
+![Architecture](architecture/project3-architecture.png)
 
 **Traffic flow:**
 
