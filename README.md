@@ -1,6 +1,6 @@
 # Project 3 - Flask App on AWS ECS Fargate
 
-Containerised Flask API with Gunicorn WSGI server, deployed to AWS ECS Fargate in private subnets. Traffic enters through an internet-facing Application Load Balancer - the sole public entry point. Fargate tasks pull container images from Amazon ECR via a NAT Gateway, with all container logs shipped to CloudWatch.
+> Containerised Flask API with Gunicorn WSGI server, deployed to AWS ECS Fargate in private subnets. Traffic enters through an internet-facing Application Load Balancer - the sole public entry point. Fargate tasks pull container images from Amazon ECR via a NAT Gateway, with all container logs shipped to CloudWatch.
 
 ## Architecture
 
