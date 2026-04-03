@@ -42,7 +42,7 @@ jobs:
 
             - name: Download task definition
               run: |
-                aws ecs describe-task-definition --task-definition projefct3-task \
+                aws ecs describe-task-definition --task-definition project3-task \
                 --query taskDefinition > task-definition.json
 
             - name: Update ECS task definition with new image
