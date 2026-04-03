@@ -17,7 +17,7 @@ app = Flask(__name__)
 def home():
     logger.info('Home endpoint hit')
     return (
-        '<h1>Project 3 - Flask on ECS Fargate</h1>'
+        '<h1>Project 3 - Version2 - Auto Deployed via CI/CD</h1>'
         '<p>Built by Shashank Ballaya</p>'
         f'<p>Container: {socket.gethostname()}</p>'
 	)
