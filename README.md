@@ -42,7 +42,7 @@
 ![Home Page](screenshots/alb-dns-health.png)
 ![Home Page](screenshots/al-dns-info.png)
 
-### Laod Balancing Proof
+### Load Balancing Proof
 
 Repeated requests to `/info` return alternating `container_id` values, confirming the ALB distributes traffic across both Fargate tasks:
 
@@ -108,7 +108,7 @@ docker push ACCOUNT-ID.dkr.ecr.ap-south-1.amazonaws.com/project3-flask:v1
 ## Key Architecture Decisions 
 - Used Private subnets for ECS tasks to prevent direct internet exposure
 - Used ALB as the single public entry point for controlled access
-- Chose Fargate over EC2 to eliminate infrastructure management
+- Choose Fargate over EC2 to eliminate infrastructure management
 - Used NAT Gateway instead of public IPs to follow production best practices
 
 ## What I Learned 
